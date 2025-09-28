@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravas - App Prototypes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .prototype-container {
+            margin: 2rem 0;
+            padding: 2rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .prototype-title {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .prototype-description {
+            margin-bottom: 1.5rem;
+            color: #6c757d;
+            line-height: 1.6;
+        }
+        
+        .prototype-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .prototype-item {
+            text-align: center;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .prototype-item h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+        .prototype-image {
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+        
+        .prototype-image:hover {
+            transform: scale(1.05);
+        }
+        
+        .prototype-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        
+        .prototype-link:hover {
+            background: #0056b3;
+        }
+        
+        .share-section {
+            background: #e3f2fd;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+        }
+        
+        .share-link {
+            font-family: monospace;
+            background: #f8f9fa;
+            padding: 0.5rem;
+            border-radius: 4px;
+            word-break: break-all;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <h2>Pravas</h2>
+                <p>Tourism App Documentation</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Introduction</a></li>
+                    <li><a href="solution-overview.html">Solution Overview</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)">Key Features</a>
+                        <div class="dropdown-content">
+                            <a href="features/ai-itinerary.html">AI-Powered Itinerary</a>
+                            <a href="features/navigation.html">Real-Time Navigation</a>
+                            <a href="features/ar-vr.html">AR/VR Previews</a>
+                            <a href="features/blockchain.html">Blockchain Payments</a>
+                            <a href="features/marketplace.html">Local Marketplace</a>
+                            <a href="features/chatbot.html">Multilingual Chatbot</a>
+                            <a href="features/feedback.html">Feedback Analysis</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)">Technologies</a>
+                        <div class="dropdown-content">
+                            <a href="technologies/ai-ml.html">AI & Machine Learning</a>
+                            <a href="technologies/blockchain.html">Blockchain</a>
+                            <a href="technologies/ar-vr.html">AR/VR</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)">How It Works</a>
+                        <div class="dropdown-content">
+                            <a href="how-it-works/user-flow.html">User Flow</a>
+                            <a href="how-it-works/core-functions.html">Core Functionalities</a>
+                        </div>
+                    </li>
+                    <li><a href="challenges.html">Challenges & Solutions</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)">Impact & Benefits</a>
+                        <div class="dropdown-content">
+                            <a href="impact/social.html">Social Impact</a>
+                            <a href="impact/economic.html">Economic Growth</a>
+                            <a href="impact/environmental.html">Environmental Care</a>
+                        </div>
+                    </li>
+                    <li><a href="prototypes.html" class="active">App Prototypes</a></li>
+                    <li><a href="diagrams.html">System Diagrams</a></li>
+                    <li><a href="future.html">Future Enhancements</a></li>
+                    <li><a href="references.html">References</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <h1>App Prototypes</h1>
+            <div class="card">
+                <p>These are the actual prototype screenshots of the Pravas mobile application, showing the user interface design and key features in action. These prototypes demonstrate the real-world implementation of the concepts described in our system documentation.</p>
+            </div>
+
+            <!-- Prototype Section -->
+            <div class="prototype-container" id="prototype-section">
+                <h2 class="prototype-title">Mobile App Prototypes</h2>
+                <div class="prototype-description">
+                    <p>These prototypes showcase the actual user interface design and functionality of the Pravas mobile application. Each screen demonstrates key features and user interactions that make the tourism experience seamless and engaging.</p>
+                    <p><strong>Prototype Features Shown:</strong></p>
+                    <ul>
+                        <li><strong>Home Screen:</strong> Main dashboard with navigation and quick access features</li>
+                        <li><strong>AR/VR Views:</strong> Immersive previews of tourist destinations</li>
+                        <li><strong>Chatbot Interface:</strong> AI-powered multilingual support system</li>
+                        <li><strong>Itinerary Planner:</strong> AI-generated personalized travel plans</li>
+                    </ul>
+                </div>
+                
+                <div class="prototype-grid">
+                    <div class="prototype-item">
+                        <h3>Home Screen</h3>
+                        <img src="images/prototype/home-screen.png" alt="Pravas Home Screen Prototype" class="prototype-image">
+                        <p style="margin-top: 1rem; color: #6c757d; font-size: 0.9rem;">Main dashboard with navigation and quick access to key features</p>
+                    </div>
+                    <div class="prototype-item">
+                        <h3>AR/VR View</h3>
+                        <img src="images/prototype/ar-view.png" alt="Pravas AR/VR Prototype" class="prototype-image">
+                        <p style="margin-top: 1rem; color: #6c757d; font-size: 0.9rem;">Immersive previews of tourist destinations using AR/VR technology</p>
+                    </div>
+                    <div class="prototype-item">
+                        <h3>Chatbot Interface</h3>
+                        <img src="images/prototype/chatbot.png" alt="Pravas Chatbot Prototype" class="prototype-image">
+                        <p style="margin-top: 1rem; color: #6c757d; font-size: 0.9rem;">AI-powered multilingual support system for tourists</p>
+                    </div>
+                    <div class="prototype-item">
+                        <h3>Itinerary Planner</h3>
+                        <img src="images/prototype/itinerary-planner.png" alt="Pravas Itinerary Planner Prototype" class="prototype-image">
+                        <p style="margin-top: 1rem; color: #6c757d; font-size: 0.9rem;">AI-generated personalized travel plans and recommendations</p>
+                    </div>
+                </div>
+
+                <div class="share-section">
+                    <strong>Share this prototype section:</strong>
+                    <div class="share-link" id="share-prototype">https://pravas-documentation.vercel.app/prototypes.html#prototype-section</div>
+                    <button onclick="copyToClipboard('share-prototype')" class="prototype-link">Copy Link</button>
+                </div>
+            </div>
+
+            <div class="next-section">
+                <a href="diagrams.html">Next: System Diagrams →</a>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        // Function to copy shareable links to clipboard
+        function copyToClipboard(elementId) {
+            const element = document.getElementById(elementId);
+            const text = element.textContent;
+            
+            navigator.clipboard.writeText(text).then(function() {
+                // Change button text temporarily to show success
+                const button = element.nextElementSibling;
+                const originalText = button.textContent;
+                button.textContent = 'Copied!';
+                button.style.background = '#28a745';
+                
+                setTimeout(function() {
+                    button.textContent = originalText;
+                    button.style.background = '#007bff';
+                }, 2000);
+            }).catch(function(err) {
+                console.error('Could not copy text: ', err);
+                alert('Could not copy link. Please copy manually.');
+            });
+        }
+
+        // Smooth scroll to anchor when page loads with hash
+        window.addEventListener('load', function() {
+            if (window.location.hash) {
+                const target = document.querySelector(window.location.hash);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            }
+        });
+    </script>
+</body>
+</html>
